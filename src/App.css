@@ -1,0 +1,11 @@
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-container .carousel-btn {
+  opacity: 0;
+}
+
+.carousel-container:hover .carousel-btn {
+  opacity: 1;
+}

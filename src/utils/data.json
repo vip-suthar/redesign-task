@@ -1,0 +1,716 @@
+{
+  "tags": {
+    "wedding": {
+      "modals": [
+        ["weddingspeech", 0.9],
+        ["weddingvow", 0.9],
+        ["weddingtheme", 0.8],
+        ["weddinggame", 0.7],
+        ["weddinggift", 0.6],
+        ["weddingchecklist", 0.9],
+        ["weddingvenue", 0.9],
+        ["weddingofficiant", 0.8]
+      ],
+      "related": [
+        "speech",
+        "vows",
+        "themes",
+        "venue",
+        "officiant",
+        "toast",
+        "gift",
+        "party",
+        "celebration",
+        "marriage"
+      ]
+    },
+    "speech": {
+      "modals": [
+        ["weddingspeech", 1],
+        ["weddingvow", 0.8],
+        ["anniversarymessage", 0.7]
+      ],
+      "related": [
+        "wedding",
+        "toast",
+        "message",
+        "vows",
+        "anniversary",
+        "celebration"
+      ]
+    },
+    "vows": {
+      "modals": [
+        ["weddingvow", 1],
+        ["weddingspeech", 0.8],
+        ["weddingtheme", 0.6]
+      ],
+      "related": ["wedding", "speech", "marriage", "themes"]
+    },
+    "themes": {
+      "modals": [
+        ["weddingtheme", 1],
+        ["weddingvow", 0.7],
+        ["lovestory", 0.7]
+      ],
+      "related": ["wedding", "vows", "story", "love", "celebration"]
+    },
+    "story": {
+      "modals": [
+        ["lovestory", 1],
+        ["custompoem", 0.6]
+      ],
+      "related": ["themes", "love", "letter", "poem"]
+    },
+    "valentine": {
+      "modals": [
+        ["valentineschecklist", 0.9],
+        ["valentinesgift", 0.9],
+        ["valentinesletter", 0.9],
+        ["valentinesdate", 0.9]
+      ],
+      "related": ["love", "gift", "letter", "date", "card", "celebration"]
+    },
+    "hashtags": {
+      "modals": [["hashtag", 1]],
+      "related": ["wedding", "party", "celebration", "quiz"]
+    },
+    "checklist": {
+      "modals": [
+        ["weddingchecklist", 0.9],
+        ["valentineschecklist", 0.8]
+      ],
+      "related": ["wedding", "valentine", "venue", "planning"]
+    },
+    "venue": {
+      "modals": [["weddingvenue", 1]],
+      "related": ["wedding", "checklist", "officiant", "party"]
+    },
+    "officiant": {
+      "modals": [["weddingofficiant", 1]],
+      "related": ["wedding", "venue", "speech"]
+    },
+    "toast": {
+      "modals": [
+        ["weddingspeech", 0.9],
+        ["weddingvow", 0.7]
+      ],
+      "related": ["speech", "wedding", "vows", "message"]
+    },
+    "message": {
+      "modals": [
+        ["anniversarymessage", 0.8],
+        ["birthdaymessage", 0.8],
+        ["thankyou", 0.8],
+        ["mothersdaymessage", 0.7]
+      ],
+      "related": [
+        "anniversary",
+        "thankyou",
+        "card",
+        "birthday",
+        "love",
+        "friend"
+      ]
+    },
+    "card": {
+      "modals": [
+        ["valentinesletter", 0.7],
+        ["birthdaymessage", 0.6]
+      ],
+      "related": ["message", "valentine", "birthday", "love"]
+    },
+    "love": {
+      "modals": [
+        ["lovereasons", 1],
+        ["lovestory", 0.9]
+      ],
+      "related": ["valentine", "story", "themes", "poem"]
+    },
+    "quiz": {
+      "modals": [
+        ["babyshowergames", 0.7],
+        ["bachelorettegames", 0.6]
+      ],
+      "related": ["games", "babyshower", "bachelorette", "party"]
+    },
+    "marriage": {
+      "modals": [["weddingvow", 1]],
+      "related": ["wedding", "vows", "speech", "anniversary"]
+    },
+    "gift": {
+      "modals": [
+        ["valentinesgift", 0.9],
+        ["holidaygift", 0.8],
+        ["weddinggift", 0.7],
+        ["birthdaygift", 0.7],
+        ["mothersdaygift", 0.6]
+      ],
+      "related": [
+        "valentine",
+        "wedding",
+        "holiday",
+        "birthday",
+        "anniversary",
+        "celebration",
+        "mothersday"
+      ]
+    },
+    "letter": {
+      "modals": [
+        ["valentinesletter", 1],
+        ["apologyletter", 0.9]
+      ],
+      "related": ["valentine", "apology", "love", "message"]
+    },
+    "date": {
+      "modals": [
+        ["valentinesdate", 1],
+        ["dateiversary", 0.8]
+      ],
+      "related": ["valentine", "anniversary", "celebration"]
+    },
+    "celebration": {
+      "modals": [
+        ["holidayparty", 0.9],
+        ["partyplanner", 0.8]
+      ],
+      "related": [
+        "party",
+        "holiday",
+        "wedding",
+        "date",
+        "gift",
+        "themes",
+        "anniversary",
+        "valentine"
+      ]
+    },
+    "holiday": {
+      "modals": [
+        ["holidaygift", 0.9],
+        ["holidayparty", 0.8]
+      ],
+      "related": ["celebration", "gift", "party", "birthday", "sympathy"]
+    },
+    "games": {
+      "modals": [
+        ["weddinggame", 0.9],
+        ["babyshowergames", 0.8],
+        ["bachelorettegames", 0.8],
+        ["birthdaypartygames", 0.7]
+      ],
+      "related": ["party", "babyshower", "bachelorette", "birthday", "quiz"]
+    },
+    "party": {
+      "modals": [
+        ["holidayparty", 0.8],
+        ["partyplanner", 0.8],
+        ["birthdaypartygames", 0.7]
+      ],
+      "related": [
+        "celebration",
+        "holiday",
+        "games",
+        "birthday",
+        "wedding",
+        "bachelorette"
+      ]
+    },
+    "anniversary": {
+      "modals": [
+        ["anniversarymessage", 1],
+        ["dateiversary", 0.8]
+      ],
+      "related": ["message", "marriage", "date", "celebration", "gift"]
+    },
+    "babyshower": {
+      "modals": [
+        ["babyshower", 1],
+        ["babyshowergames", 0.8]
+      ],
+      "related": ["games", "quiz", "genderreveal", "birth"]
+    },
+    "birth": {
+      "modals": [["babyshower", 1]],
+      "related": ["babyshower", "genderreveal", "celebration"]
+    },
+    "birthday": {
+      "modals": [
+        ["birthdaygift", 0.9],
+        ["birthdaymessage", 0.9],
+        ["birthdaywizard", 0.8],
+        ["birthdaypartygames", 0.7]
+      ],
+      "related": [
+        "gift",
+        "message",
+        "party",
+        "games",
+        "card",
+        "celebration",
+        "wizard"
+      ]
+    },
+    "bachelorette": {
+      "modals": [
+        ["bachelorette", 1],
+        ["bachelorettegames", 0.8]
+      ],
+      "related": ["party", "games", "quiz", "celebration"]
+    },
+    "wizard": {
+      "modals": [["birthdaywizard", 1]],
+      "related": ["birthday", "party", "celebration"]
+    },
+    "wishes": {
+      "modals": [
+        ["congratulations", 0.8],
+        ["appreciation", 0.7]
+      ],
+      "related": ["congratulations", "appreciation", "friend", "celebration"]
+    },
+    "ideas": {
+      "modals": [
+        ["custompoem", 0.7],
+        ["customplaque", 0.7]
+      ],
+      "related": ["poem", "plaque", "custom", "celebration"]
+    },
+    "proposal": {
+      "modals": [["proposal", 1]],
+      "related": ["love", "wedding", "marriage"]
+    },
+    "poem": {
+      "modals": [["custompoem", 1]],
+      "related": ["story", "love", "ideas", "custom"]
+    },
+    "custom": {
+      "modals": [
+        ["custompoem", 0.9],
+        ["customplaque", 0.9]
+      ],
+      "related": ["plaque", "poem", "ideas", "celebration"]
+    },
+    "plaque": {
+      "modals": [["customplaque", 1]],
+      "related": ["custom", "ideas", "congratulations"]
+    },
+    "congratulations": {
+      "modals": [["congratulations", 1]],
+      "related": ["wishes", "achievement", "appreciation", "celebration"]
+    },
+    "appreciation": {
+      "modals": [
+        ["appreciation", 1],
+        ["thankyou", 0.8],
+        ["appreciationfriend", 0.7]
+      ],
+      "related": [
+        "thankyou",
+        "friend",
+        "congratulations",
+        "achievement",
+        "work"
+      ]
+    },
+    "achievement": {
+      "modals": [["achievementmilestone", 1]],
+      "related": ["work", "appreciation", "celebration", "congratulations"]
+    },
+    "work": {
+      "modals": [
+        ["teamplanning", 0.8],
+        ["workanniversary", 0.8],
+        ["worknewhire", 0.7]
+      ],
+      "related": ["achievement", "team", "newhire", "planning", "appreciation"]
+    },
+    "team": {
+      "modals": [["teamplanning", 1]],
+      "related": ["work", "planning", "achievement"]
+    },
+    "planning": {
+      "modals": [
+        ["teamplanning", 1],
+        ["partyplanner", 0.8]
+      ],
+      "related": ["team", "party", "work", "checklist"]
+    },
+    "newhire": {
+      "modals": [["worknewhire", 1]],
+      "related": ["work", "team", "achievement"]
+    },
+    "genderreveal": {
+      "modals": [["genderreveal", 1]],
+      "related": ["babyshower", "birth"]
+    },
+    "mothersday": {
+      "modals": [
+        ["mothersdaymessage", 1],
+        ["mothersdaygift", 0.9]
+      ],
+      "related": ["message", "gift", "celebration"]
+    },
+    "sympathy": {
+      "modals": [["sympathyandcondolences", 1]],
+      "related": ["condolences", "apology", "holiday", "message"]
+    },
+    "condolences": {
+      "modals": [["sympathyandcondolences", 1]],
+      "related": ["sympathy", "apology", "message"]
+    },
+    "apology": {
+      "modals": [["apologyletter", 1]],
+      "related": ["letter", "condolences", "message"]
+    },
+    "thankyou": {
+      "modals": [["thankyou", 1]],
+      "related": ["appreciation", "message", "gift", "friend"]
+    },
+    "friend": {
+      "modals": [["appreciationfriend", 1]],
+      "related": ["appreciation", "thankyou", "celebration", "message"]
+    }
+  },
+  "occModalMap": {
+    "wedding": [
+      "weddingspeech",
+      "weddingvow",
+      "weddingtheme",
+      "weddingchecklist",
+      "weddingvenue",
+      "weddingofficiant",
+      "weddinggame",
+      "weddinggift",
+      "hashtag",
+      "custompoem",
+      "customplaque",
+      "proposal"
+    ],
+    "birthday": [
+      "birthdaygift",
+      "birthdaymessage",
+      "birthdaywizard",
+      "birthdaypartygames",
+      "hashtag"
+    ],
+    "anniversary": [
+      "anniversarymessage",
+      "weddingvow",
+      "dateiversary",
+      "giftrecommender"
+    ],
+    "babyshower": ["babyshower", "babyshowergames", "genderreveal"],
+    "bachelorette": ["bachelorette", "bachelorettegames", "partyplanner"],
+    "valentine": [
+      "valentineschecklist",
+      "valentinesgift",
+      "valentinesletter",
+      "valentinesdate",
+      "lovereasons",
+      "custompoem"
+    ],
+    "proposal": ["proposal", "lovereasons", "custompoem"],
+    "work_anniversary": [
+      "achievementmilestone",
+      "workanniversary",
+      "teamplanning"
+    ],
+    "new_hire": ["worknewhire", "teamplanning", "achievementmilestone"],
+    "mothersday": ["mothersdaymessage", "mothersdaygift"],
+    "holiday": [
+      "holidaygift",
+      "holidayparty",
+      "giftrecommender",
+      "customplaque",
+      "congratulations"
+    ],
+    "sympathy": ["sympathyandcondolences", "apologyletter"],
+    "apology": ["apologyletter", "thankyou"],
+    "thankyou": ["thankyou", "appreciationfriend"],
+    "achievement": ["achievementmilestone", "congratulations"],
+    "team_event": ["teamplanning", "workanniversary"],
+    "party": [
+      "partyplanner",
+      "holidayparty",
+      "birthdaypartygames",
+      "bachelorettegames",
+      "babyshowergames"
+    ]
+  },
+  "modals": {
+    "weddingspeech": {
+      "type": "weddingspeech",
+      "cardTitle": "Wedding Speech",
+      "cardDescription": "Write a personalized and heartfelt wedding speech or toast to congratulate the couple.",
+      "url": "/wedding/speech"
+    },
+    "weddingvow": {
+      "type": "weddingvow",
+      "cardTitle": "Wedding Vows",
+      "cardDescription": "Embrace your love story – narrate your journey and unveil AI-crafted vows that beautifully express your unique bond.",
+      "url": "/wedding/vows"
+    },
+    "weddingtheme": {
+      "type": "weddingtheme",
+      "cardTitle": "Wedding Theme",
+      "cardDescription": "Customise your dream wedding seamlessly with our AI-driven quiz, curating inspiring themes, decor, and colors tailored to your style.",
+      "url": "/wedding/theme"
+    },
+    "lovestory": {
+      "type": "lovestory",
+      "cardTitle": "Our Love Story",
+      "cardDescription": "Create a one-of-a-kind and tailor-made love story using our AI Love Story Generator.",
+      "url": "/wedding/our-story"
+    },
+    "valentineschecklist": {
+      "type": "valentineschecklist",
+      "cardTitle": "Valentine’s Day Checklist",
+      "cardDescription": "Plan an unforgettable Valentine's Day with this personalized checklist that covers everything - from gifts to romantic gestures.",
+      "url": "/valentines/checklist"
+    },
+    "valentinesgift": {
+      "type": "valentinesgift",
+      "cardTitle": "Valentine’s Day Gift",
+      "cardDescription": "Celebrate the magic of Valentine's Day – discover AI-curated gifts that beautifully symbolize your unique connection.",
+      "url": "/valentines/gift"
+    },
+    "valentinesletter": {
+      "type": "valentinesletter",
+      "cardTitle": "Love Letter Generator",
+      "cardDescription": "Compose a heartfelt love letter or note to express your sentiments, and allow us to assist you in bringing it to life.",
+      "url": "/valentines/letter"
+    },
+    "valentinesdate": {
+      "type": "valentinesdate",
+      "cardTitle": "Valentine’s Day Date",
+      "cardDescription": "Celebrate Valentine's Day through uniquely tailored date experiences and create lasting memories.",
+      "url": "/valentines/date"
+    },
+    "giftrecommender": {
+      "type": "giftrecommender",
+      "cardTitle": "Gift Recommender",
+      "cardDescription": "Discover the ideal present for any celebration, expressing your affection and making your loved one feel truly cherished.",
+      "url": "/gift-recommender"
+    },
+    "holidaygift": {
+      "type": "holidaygift",
+      "cardTitle": "Holiday Gift",
+      "cardDescription": "Spread joy this festive season – answer a few questions, receive authentic, personalized, budget-friendly, and delightful gift recommendations.",
+      "url": "/holidays/gift"
+    },
+    "weddinggame": {
+      "type": "weddinggame",
+      "cardTitle": "Wedding Games",
+      "cardDescription": "Infuse joy into your celebration – organise bespoke games for everyone, creating unforgettable moments on your special day.",
+      "url": "/wedding/game"
+    },
+    "weddinggift": {
+      "type": "weddinggift",
+      "cardTitle": "Wedding Gift",
+      "cardDescription": "Discover the ideal wedding gift to make the newly married couple feel special and loved.",
+      "url": "/wedding/gift"
+    },
+    "holidayparty": {
+      "type": "holidayparty",
+      "cardTitle": "Holiday Party",
+      "cardDescription": "Create unforgettable celebrations for your loved ones with our personalized bundle of fun games and memorable activities tailored to your needs.",
+      "url": "/holidays/party"
+    },
+    "anniversarymessage": {
+      "type": "anniversarymessage",
+      "cardTitle": "Anniversary Message",
+      "cardDescription": "Craft heartfelt lines that reignite love, strengthen bonds, and make your anniversary truly cherished.",
+      "url": "/anniversary/message"
+    },
+    "babyshower": {
+      "type": "babyshower",
+      "cardTitle": "Baby Shower",
+      "cardDescription": "Curate heartfelt and personalized baby shower ideas that embrace love for both the mother and baby.",
+      "url": "/baby-shower/party-ideas"
+    },
+    "bachelorette": {
+      "type": "bachelorette",
+      "cardTitle": "Bachelorette Party",
+      "cardDescription": "Throw the ultimate bride-to-be bash with personalized celebrations, reflecting the bride's unique spirit.",
+      "url": "/bachelorette/party-ideas"
+    },
+    "birthdaygift": {
+      "type": "birthdaygift",
+      "cardTitle": "Birthday Gift",
+      "cardDescription": "Discover the perfect birthday gift for your loved one making them feel extra special.",
+      "url": "/birthday/gift"
+    },
+    "birthdaymessage": {
+      "type": "birthdaymessage",
+      "cardTitle": "Birthday Message",
+      "cardDescription": "Make every birthday unforgettable with personalized heartwarming messages.",
+      "colorTw": "text-red-500",
+      "url": "/birthday/message"
+    },
+    "birthdaywizard": {
+      "type": "birthdaywizard",
+      "cardTitle": "Birthday Party Planner",
+      "cardDescription": "Elevate celebrations with our Birthday Party Assistant — tailoring themes, games, decor, and ambiance for a birthday bash.",
+      "url": "/birthday/party-ideas"
+    },
+    "dateiversary": {
+      "type": "dateiversary",
+      "cardTitle": "Date Idea",
+      "cardDescription": "Celebrate love milestones with uniquely tailored date experiences, creating cherished memories.",
+      "url": "/anniversary/date"
+    },
+    "proposal": {
+      "type": "proposal",
+      "cardTitle": "Marriage Proposal Ideas",
+      "cardDescription": "Your guide to crafting dreamy personalized moments of love reflecting your unique love story.",
+      "url": "/proposal/idea"
+    },
+    "hashtag": {
+      "type": "hashtag",
+      "cardTitle": "Wedding Hashtag",
+      "cardDescription": "Discover the perfect and memorable hashtags to symbolize your unique connection and celebrate your wedding with joy.",
+      "url": "/wedding/hashtag"
+    },
+    "weddingchecklist": {
+      "type": "weddingchecklist",
+      "cardTitle": "Wedding Checklist",
+      "cardDescription": "Navigate your wedding planning effortlessly with AI powered personalized checklists to simplify your special day.",
+      "url": "/wedding/checklist"
+    },
+    "weddingvenue": {
+      "type": "weddingvenue",
+      "cardTitle": "Wedding Venue",
+      "cardDescription": "Discover the perfect wedding venue tailored to your preferences and get a jumpstart to your wedding planning.",
+      "url": "/wedding/venue"
+    },
+    "lovereasons": {
+      "type": "lovereasons",
+      "cardTitle": "Reasons Why I Love You",
+      "cardDescription": "Create a personalized keepsake with heartfelt reasons expressing your love.",
+      "url": "/print/reasons-why-i-love-you"
+    },
+    "custompoem": {
+      "type": "custompoem",
+      "cardTitle": "Custom Poem Generator",
+      "cardDescription": "Craft a custom poem that captures your unique sentiments and emotions, perfect for any occasion or as a keepsake.",
+      "url": "/print/poem"
+    },
+    "customplaque": {
+      "type": "customplaque",
+      "cardTitle": "Custom Plaque Text Generator",
+      "cardDescription": "Create a personalized plaque text that highlights your unique bond, perfect for any occasion or as a keepsake.",
+      "url": "/print/plaque"
+    },
+    "congratulations": {
+      "type": "congratulations",
+      "cardTitle": "Congratulation Wishes",
+      "cardDescription": "Create personalized congratulatory messages for friends, family, or colleagues.",
+      "url": "/congratulations"
+    },
+    "appreciation": {
+      "type": "appreciation",
+      "cardTitle": "Thank you Message",
+      "cardDescription": "Write thank you appreciation messages for friends, family, or colleagues.",
+      "url": "/appreciation"
+    },
+    "achievementmilestone": {
+      "type": "achievementmilestone",
+      "cardTitle": "Work Achievement Message",
+      "cardDescription": "Create personalized congratulatory messages to recognize your employee's successes.",
+      "url": "/work/achievement"
+    },
+    "teamplanning": {
+      "type": "teamplanning",
+      "cardTitle": "Team Building Activities",
+      "cardDescription": "Discover fun team building activities customized to your unique needs, fostering unity and bringing your team together.",
+      "url": "/work/team-planning"
+    },
+    "workanniversary": {
+      "type": "workanniversary",
+      "cardTitle": "Work Anniversary",
+      "cardDescription": "Craft personalized Work Anniversary Messages that reflect the individual's achievements and commitment.",
+      "url": "/work/anniversary"
+    },
+    "worknewhire": {
+      "type": "worknewhire",
+      "cardTitle": "New Employee Welcome Message",
+      "cardDescription": "Craft the perfect email to welcome and onboard new employees.",
+      "url": "/work/new-hire"
+    },
+    "genderreveal": {
+      "type": "genderreveal",
+      "cardTitle": "Gender Reveal Ideas",
+      "cardDescription": "Gender reveal parties for every couple.",
+      "url": "/gender-reveal"
+    },
+    "partyplanner": {
+      "type": "partyplanner",
+      "cardTitle": "Party Idea Generator",
+      "cardDescription": "Design the perfect party with tailored planning assistance for any occasion.",
+      "colorTw": "text-red-500",
+      "url": "/party-ideas"
+    },
+    "mothersdaymessage": {
+      "type": "mothersdaymessage",
+      "cardTitle": "Mother's Day Message",
+      "cardDescription": "Write a heartfelt Mother's Day greeting that makes every mom feel special.",
+      "url": "/mothersday/message"
+    },
+    "mothersdaygift": {
+      "type": "mothersdaygift",
+      "cardTitle": "Mother's Day Gift",
+      "cardDescription": "Discover the perfect Mother's Day gift that makes your mom feel loved.",
+      "url": "/mothersday/gift"
+    },
+    "weddingofficiant": {
+      "type": "weddingofficiant",
+      "cardTitle": "Officiant Speech",
+      "cardDescription": "Craft the perfect officiant speech for every ceremony.",
+      "url": "/wedding/officiant"
+    },
+    "sympathyandcondolences": {
+      "type": "sympathyandcondolences",
+      "cardTitle": "Sympathy & Condolences Message",
+      "cardDescription": "Craft heartfelt sympathy and condolence messages to offer comfort and support.",
+      "url": "/sympathy-and-condolences"
+    },
+    "apologyletter": {
+      "type": "apologyletter",
+      "cardTitle": "Apology Letter",
+      "cardDescription": "Craft sincere and thoughtful apology letters to express your regret and mend relationships.",
+      "url": "/apology-letter"
+    },
+    "babyshowergames": {
+      "type": "babyshowergames",
+      "cardTitle": "Baby Shower Games",
+      "cardDescription": "Create unforgettable moments with engaging baby shower games.",
+      "url": "/baby-shower/games"
+    },
+    "bachelorettegames": {
+      "type": "bachelorettegames",
+      "cardTitle": "Bachelorette Party Games",
+      "cardDescription": "Create unforgettable moments with engaging bachelorette party games.",
+      "url": "/bachelorette/games"
+    },
+    "birthdaypartygames": {
+      "type": "birthdaypartygames",
+      "cardTitle": "Birthday Party Games",
+      "cardDescription": "Elevate the fun with a selection of engaging games perfect for any birthday party.",
+      "url": "/birthday/games"
+    },
+    "thankyou": {
+      "type": "thankyou",
+      "cardTitle": "Thank You Card",
+      "cardDescription": "Create heartfelt thank you cards that express your gratitude in a meaningful way.",
+      "url": "/thank-you"
+    },
+    "appreciationfriend": {
+      "type": "appreciationfriend",
+      "cardTitle": "Appreciation Card for Friend",
+      "cardDescription": "Create heartfelt appreciation cards for your friend in a meaningful way.",
+      "url": "/appreciation/friend"
+    }
+  }
+}
